@@ -7,80 +7,82 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05A2B271242F64D6B364B606 /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0828CDEF5712E8DE3CE6DDD2 /* PracticeView.swift */; };
-		0DBA0F49CC5AC0DD795BB1C1 /* GateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3547D374EA41DBD2AF7D7F2D /* GateManager.swift */; };
-		1BFD6FE5742E3E1714A8A2F6 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A9338805D1BFF1C3A21647 /* Store.swift */; };
-		1E8A178AA398FF1AAD8B8F37 /* GateShared.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3071BCF0F031B324F71CD9 /* GateShared.swift */; };
-		225087CB9DDD2D80CC61A5EB /* ActivityNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55123596B3CD138D65575BE /* ActivityNames.swift */; };
-		248F9EE46C3A1B17D6958AE4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F10AD872CBB727B6F0F6A0B /* HomeView.swift */; };
-		273E89E37D36A4111AED30AF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F10AD872CBB727B6F0F6A0B /* HomeView.swift */; };
-		29E2FBA7C8AC40C593154157 /* problems.js in Resources */ = {isa = PBXBuildFile; fileRef = D44AE80691835A6FF26427F0 /* problems.js */; };
-		303D77025F92C6E7ADA637EE /* Monitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316960BB80E6B25970A2FE45 /* Monitor.swift */; };
-		34F689D9B69430315400B97C /* QuestionWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DEE97DFD2020A0DA59DDBF /* QuestionWebView.swift */; };
-		3678808635C760A713F1519A /* PracticeSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67B1FD504E22A6695479A71 /* PracticeSession.swift */; };
-		37C7676F49A0EFCDC185D5BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1C1C92531D15D867A40F375 /* Assets.xcassets */; };
-		3931EFBA01FF4DE9EC52A18F /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED25FC0B3D8B87A92A85B756 /* Theme.swift */; };
-		3B66DD636425A221F6C525BD /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED25FC0B3D8B87A92A85B756 /* Theme.swift */; };
-		3DB74E9C7AEAE44596954E0A /* ProblemEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3FF9D6A6CCAD06A40B0822 /* ProblemEngine.swift */; };
-		3F4F3F4ED26EE7FD249D5D4F /* ProgressData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BA824BBAC09F420DD46722 /* ProgressData.swift */; };
-		4403C7D26AA4E2A218799804 /* CanvasViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BBB7321A97D44E4F8CA369 /* CanvasViews.swift */; };
-		52D98453222CEB3067A788A6 /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0828CDEF5712E8DE3CE6DDD2 /* PracticeView.swift */; };
-		5508C6482D30D3B442392CAD /* ActivityNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55123596B3CD138D65575BE /* ActivityNames.swift */; };
-		5B2624E1B0AC005DD5BED900 /* ParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5458BC2D450BF48E5B71E0E2 /* ParentView.swift */; };
-		5C04119F05683D6F92A69220 /* UnitAndSummaryViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3EFD2CB425627684A6987A /* UnitAndSummaryViews.swift */; };
-		6017C28D20D099E7F284EE48 /* UnitAndSummaryViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3EFD2CB425627684A6987A /* UnitAndSummaryViews.swift */; };
-		6AEF56345C6DC49A59EE5D23 /* question.html in Resources */ = {isa = PBXBuildFile; fileRef = D700E8A46C21541BF8024A54 /* question.html */; };
-		6B22038E25375120AFB636D6 /* GateSettingsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4A04907B1491E331B45835 /* GateSettingsSection.swift */; };
-		7A624E09DC188DF62FD95BA4 /* PracticeSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67B1FD504E22A6695479A71 /* PracticeSession.swift */; };
-		7E5F1767E05641B4517CD143 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1C1C92531D15D867A40F375 /* Assets.xcassets */; };
-		82032BB8661ABABA84515062 /* Math7App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92270210B55803E62C5FAC5F /* Math7App.swift */; };
-		88BCDE964A1CD4581237F6EF /* HandwritingRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688044F178A921A568077655 /* HandwritingRecognizer.swift */; };
-		89364A103B654F0E8984397F /* QuestionWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DEE97DFD2020A0DA59DDBF /* QuestionWebView.swift */; };
-		96E4C1B706CE7AD3AA9490CD /* ProgressData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BA824BBAC09F420DD46722 /* ProgressData.swift */; };
-		9DA2B07398AB23F097DBE406 /* HandwritingRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688044F178A921A568077655 /* HandwritingRecognizer.swift */; };
-		9EB375B686DBF4E8EAA3542A /* ActivityNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55123596B3CD138D65575BE /* ActivityNames.swift */; };
-		A525DBAD8BE0AC1E4AC55B23 /* ShieldConfigurationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68311918335EF70697488BF /* ShieldConfigurationExtension.swift */; };
-		A67E153D8315F0E0BA8112B5 /* ParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5458BC2D450BF48E5B71E0E2 /* ParentView.swift */; };
-		B3469536C6FC25D47573AA76 /* Math7App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92270210B55803E62C5FAC5F /* Math7App.swift */; };
-		B99FA8EDCA2B3E52F92EAE78 /* GateShared.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3071BCF0F031B324F71CD9 /* GateShared.swift */; };
-		BA45CAFA99EFCF3EF84CEAB3 /* CanvasViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BBB7321A97D44E4F8CA369 /* CanvasViews.swift */; };
-		BFF3A58FC2F40F44AA4BB884 /* problems.js in Resources */ = {isa = PBXBuildFile; fileRef = D44AE80691835A6FF26427F0 /* problems.js */; };
-		C56681F32BC9DB0C736B4144 /* GateSettingsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4A04907B1491E331B45835 /* GateSettingsSection.swift */; };
-		C5A310E3996FA52015F42810 /* question.html in Resources */ = {isa = PBXBuildFile; fileRef = D700E8A46C21541BF8024A54 /* question.html */; };
-		D705E2FA4FF3AE6854444A64 /* GateShared.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3071BCF0F031B324F71CD9 /* GateShared.swift */; };
-		E0246FE2422C0A4BE86BDEE6 /* Math7Shield.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = FB94434E8854247C2146A889 /* Math7Shield.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		ED3F856F11C94D20DF6A8A9E /* Math7Monitor.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4C02FAE59333E636487A9A42 /* Math7Monitor.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		F0D9312111AA38EC6DC19844 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A9338805D1BFF1C3A21647 /* Store.swift */; };
-		F23EED7164E71D0C7F59ACE2 /* ProblemEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3FF9D6A6CCAD06A40B0822 /* ProblemEngine.swift */; };
-		F8305C4DDFEDC2BCC9976E71 /* GateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3547D374EA41DBD2AF7D7F2D /* GateManager.swift */; };
+		00DDC0A2A8F731329B3EEA7C /* ShieldConfigurationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C020E4565031531F59FBF83 /* ShieldConfigurationExtension.swift */; };
+		0D807DF025238E80F2978567 /* UnitAndSummaryViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDBA9D8527B289DDB671E56 /* UnitAndSummaryViews.swift */; };
+		0E627289F839345C0312D033 /* ProgressData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F728641867E397A0940839 /* ProgressData.swift */; };
+		19C96C8FE78F90AC20F58954 /* Math7Monitor.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E4E362E0882B022682F5461A /* Math7Monitor.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1E4CD5A4C2E790045FCC4107 /* HandwritingRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390F118732D770426FCE9890 /* HandwritingRecognizer.swift */; };
+		215782D6C7FBB292532399D3 /* GateShared.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34471B3B8D6F55507891037 /* GateShared.swift */; };
+		32207D7443477D9DB42D3D7B /* QuestionWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E997A6259839162FF461CFCD /* QuestionWebView.swift */; };
+		33C941D824F83AA62414BA55 /* ActivityNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF442A8B7474935334E1D59 /* ActivityNames.swift */; };
+		380418B6223A6771336E5986 /* ProgressData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F728641867E397A0940839 /* ProgressData.swift */; };
+		3A9223A4EE0D1255B41C256D /* Math7Shield.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C94212D07DD9994C9BF04E31 /* Math7Shield.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3FEF29115ADB4C7B19D00ED4 /* GateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72263E9E32FFB705C4F7DB0 /* GateManager.swift */; };
+		4A54475043800E6DB8DC8243 /* CanvasViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8269FA2137D6B8D877F3BF34 /* CanvasViews.swift */; };
+		4B835DF9DBF370F72C2AA4FB /* problems.js in Resources */ = {isa = PBXBuildFile; fileRef = A000105E73A6A620BCA29D31 /* problems.js */; };
+		4CAE0537C9891A9247AE6CA3 /* DigitRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A62925A7C65BBCF8EB9441 /* DigitRecognizer.swift */; };
+		5677BA359673B8F5DB94B385 /* ParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FADE4DAB10C6C98AF8C4351 /* ParentView.swift */; };
+		5A7692F9C528FDBAD120E9EF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAC14C471D44CF332A175B1 /* HomeView.swift */; };
+		6B35808A8C418C660004BC63 /* QuestionWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E997A6259839162FF461CFCD /* QuestionWebView.swift */; };
+		744C8EC5E6DD5FE9F8CFBF3A /* GateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72263E9E32FFB705C4F7DB0 /* GateManager.swift */; };
+		759EA1254AD533F29AEFD1F3 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E6866FE7F751F3D0B7EF36 /* Store.swift */; };
+		79B82B613B673716520CFF43 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E6866FE7F751F3D0B7EF36 /* Store.swift */; };
+		85DB99857CAAD3941BDFA83D /* ParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FADE4DAB10C6C98AF8C4351 /* ParentView.swift */; };
+		8FD90C4C23794320441CD0F8 /* PracticeSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CAD0B2DDC1A4BEC87CCD89 /* PracticeSession.swift */; };
+		9B7C828BA0319BFD88F2D34B /* DigitRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A62925A7C65BBCF8EB9441 /* DigitRecognizer.swift */; };
+		9DDB7163204EE9483AF775B6 /* ProblemEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0CB873D7FBBD58AA533DF0 /* ProblemEngine.swift */; };
+		9E15F44FB13A38099CAEE0D8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAC14C471D44CF332A175B1 /* HomeView.swift */; };
+		9E8141C085C253A9F707DDB1 /* Math7App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A116CF791DF474F7E21C59 /* Math7App.swift */; };
+		A7B9C7BF08B1B56B8622F1A7 /* UnitAndSummaryViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDBA9D8527B289DDB671E56 /* UnitAndSummaryViews.swift */; };
+		A86308B0E916E4C23C311F01 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18E0C8E1B09F015DC92F264 /* Theme.swift */; };
+		AFDED322AF0E3933C5C54AD6 /* ActivityNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF442A8B7474935334E1D59 /* ActivityNames.swift */; };
+		B0C1FEA8DA85226B2918A17C /* GateShared.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34471B3B8D6F55507891037 /* GateShared.swift */; };
+		B743D0260117D8113FF784F5 /* Monitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD769D758A906338A02B0B88 /* Monitor.swift */; };
+		BF0B284159A5D91CFE3999EA /* PracticeSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CAD0B2DDC1A4BEC87CCD89 /* PracticeSession.swift */; };
+		C978169A879618679BBB763D /* GateSettingsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44C80968ABBFDBE71CCEE08 /* GateSettingsSection.swift */; };
+		CCCB8E354ADF9F700EA5CB0C /* ProblemEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0CB873D7FBBD58AA533DF0 /* ProblemEngine.swift */; };
+		D190112D4E91673A20082356 /* GateShared.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34471B3B8D6F55507891037 /* GateShared.swift */; };
+		D1AC1ACAB1C601EC0B7761A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2292E1EC58B65EDA5D35771F /* Assets.xcassets */; };
+		D51B778E89003DC9C6BE3BFE /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18E0C8E1B09F015DC92F264 /* Theme.swift */; };
+		D5A615BCF65BE6ACC2824E2F /* Math7App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A116CF791DF474F7E21C59 /* Math7App.swift */; };
+		E3BA9EEAA27D1355EECD06F6 /* HandwritingRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390F118732D770426FCE9890 /* HandwritingRecognizer.swift */; };
+		E5823126306EDC878B482381 /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D83F2B3FBEBFEC62F8DC08F /* PracticeView.swift */; };
+		E5DD1591FF4598AFAA5DE7EA /* CanvasViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8269FA2137D6B8D877F3BF34 /* CanvasViews.swift */; };
+		E842398C7E13DCD4EA69A58D /* question.html in Resources */ = {isa = PBXBuildFile; fileRef = E0A636A1A06AAA0C06D0F6E9 /* question.html */; };
+		E91C23B1A6C6759972917A9A /* problems.js in Resources */ = {isa = PBXBuildFile; fileRef = A000105E73A6A620BCA29D31 /* problems.js */; };
+		F29C04E3DC8F5164C54CD1A2 /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D83F2B3FBEBFEC62F8DC08F /* PracticeView.swift */; };
+		F3D19A322FFA4873D2BB005E /* question.html in Resources */ = {isa = PBXBuildFile; fileRef = E0A636A1A06AAA0C06D0F6E9 /* question.html */; };
+		F741B1CC22BA1A03BF6B93BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2292E1EC58B65EDA5D35771F /* Assets.xcassets */; };
+		FA7DE737D1D0350750EE75B8 /* ActivityNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF442A8B7474935334E1D59 /* ActivityNames.swift */; };
+		FD62C0D43EC15BF7ADED48F7 /* GateSettingsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44C80968ABBFDBE71CCEE08 /* GateSettingsSection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0C85D358C53A5AA01CFF74B9 /* PBXContainerItemProxy */ = {
+		ACBE22A98FB90CB8C17D923C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A685956D529BEC98830F95C3 /* Project object */;
+			containerPortal = 228C664A3111C91689492455 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FD60645AD91057C6B45AFB6B;
-			remoteInfo = Math7Monitor;
-		};
-		1C8EE4C7175B29457150A854 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A685956D529BEC98830F95C3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3B0BAAA041E851C92ADB887C;
+			remoteGlobalIDString = 40B650F6FE592B73985FEA99;
 			remoteInfo = Math7Shield;
+		};
+		DA236B8B1CF0E165BF6B31BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 228C664A3111C91689492455 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8027869C38ED10A1A3FB44C2;
+			remoteInfo = Math7Monitor;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		0BE12960BE48A3D1E17A77F9 /* Embed Foundation Extensions */ = {
+		0326166E6EBCF84C557E1484 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				ED3F856F11C94D20DF6A8A9E /* Math7Monitor.appex in Embed Foundation Extensions */,
-				E0246FE2422C0A4BE86BDEE6 /* Math7Shield.appex in Embed Foundation Extensions */,
+				19C96C8FE78F90AC20F58954 /* Math7Monitor.appex in Embed Foundation Extensions */,
+				3A9223A4EE0D1255B41C256D /* Math7Shield.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -88,64 +90,65 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0828CDEF5712E8DE3CE6DDD2 /* PracticeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
-		2B3EFD2CB425627684A6987A /* UnitAndSummaryViews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UnitAndSummaryViews.swift; sourceTree = "<group>"; };
-		316960BB80E6B25970A2FE45 /* Monitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Monitor.swift; sourceTree = "<group>"; };
-		316D60C6D8F1DA76437C3DE2 /* Math7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Math7.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3547D374EA41DBD2AF7D7F2D /* GateManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GateManager.swift; sourceTree = "<group>"; };
-		37BA824BBAC09F420DD46722 /* ProgressData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProgressData.swift; sourceTree = "<group>"; };
-		4C02FAE59333E636487A9A42 /* Math7Monitor.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Math7Monitor.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		4EA43601BC2AB33EA2E6A624 /* Math7Monitor.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = Math7Monitor.entitlements; sourceTree = "<group>"; };
-		51F2839C197209A0F45574D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		52A9338805D1BFF1C3A21647 /* Store.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
-		5458BC2D450BF48E5B71E0E2 /* ParentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ParentView.swift; sourceTree = "<group>"; };
-		56DEE97DFD2020A0DA59DDBF /* QuestionWebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QuestionWebView.swift; sourceTree = "<group>"; };
-		5F10AD872CBB727B6F0F6A0B /* HomeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		688044F178A921A568077655 /* HandwritingRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HandwritingRecognizer.swift; sourceTree = "<group>"; };
-		7F7C2F4E06799AB802CCA112 /* Math7Shield.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = Math7Shield.entitlements; sourceTree = "<group>"; };
-		8F4A04907B1491E331B45835 /* GateSettingsSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GateSettingsSection.swift; sourceTree = "<group>"; };
-		92270210B55803E62C5FAC5F /* Math7App.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Math7App.swift; sourceTree = "<group>"; };
-		B0F2B40189D0B9200FD2E60C /* Math7Lock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Math7Lock.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C67B1FD504E22A6695479A71 /* PracticeSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PracticeSession.swift; sourceTree = "<group>"; };
-		C7D5E8B94F35CF6E544BB67A /* Settings.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Settings.xcconfig; sourceTree = "<group>"; };
-		CB3071BCF0F031B324F71CD9 /* GateShared.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GateShared.swift; sourceTree = "<group>"; };
-		CD0E7F6668A33A6F97DA7198 /* Math7Lock.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = Math7Lock.entitlements; sourceTree = "<group>"; };
-		CF3FF9D6A6CCAD06A40B0822 /* ProblemEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProblemEngine.swift; sourceTree = "<group>"; };
-		D2BBB7321A97D44E4F8CA369 /* CanvasViews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CanvasViews.swift; sourceTree = "<group>"; };
-		D44AE80691835A6FF26427F0 /* problems.js */ = {isa = PBXFileReference; includeInIndex = 1; path = problems.js; sourceTree = "<group>"; };
-		D700E8A46C21541BF8024A54 /* question.html */ = {isa = PBXFileReference; includeInIndex = 1; path = question.html; sourceTree = "<group>"; };
-		E1C1C92531D15D867A40F375 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E57E5EB8323953362D3383F9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E68311918335EF70697488BF /* ShieldConfigurationExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ShieldConfigurationExtension.swift; sourceTree = "<group>"; };
-		ED25FC0B3D8B87A92A85B756 /* Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
-		EEC0DAC6B0668FD4E77F1557 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F55123596B3CD138D65575BE /* ActivityNames.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ActivityNames.swift; sourceTree = "<group>"; };
-		FB94434E8854247C2146A889 /* Math7Shield.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Math7Shield.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		06C0D53B593B70C9CDC6014E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FADE4DAB10C6C98AF8C4351 /* ParentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ParentView.swift; sourceTree = "<group>"; };
+		1CDBA9D8527B289DDB671E56 /* UnitAndSummaryViews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UnitAndSummaryViews.swift; sourceTree = "<group>"; };
+		21FFC06FDF036133D921FC63 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2292E1EC58B65EDA5D35771F /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30A62925A7C65BBCF8EB9441 /* DigitRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DigitRecognizer.swift; sourceTree = "<group>"; };
+		390F118732D770426FCE9890 /* HandwritingRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HandwritingRecognizer.swift; sourceTree = "<group>"; };
+		3BAC14C471D44CF332A175B1 /* HomeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		45145A0BEB949AFB1847D534 /* Math7Lock.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = Math7Lock.entitlements; sourceTree = "<group>"; };
+		5C020E4565031531F59FBF83 /* ShieldConfigurationExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ShieldConfigurationExtension.swift; sourceTree = "<group>"; };
+		68E6866FE7F751F3D0B7EF36 /* Store.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		6DAF64BAD64018CA03300D4A /* Settings.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Settings.xcconfig; sourceTree = "<group>"; };
+		7239B444B9E7149BBBEA7121 /* Math7Lock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Math7Lock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CF442A8B7474935334E1D59 /* ActivityNames.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ActivityNames.swift; sourceTree = "<group>"; };
+		8269FA2137D6B8D877F3BF34 /* CanvasViews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CanvasViews.swift; sourceTree = "<group>"; };
+		8D0CB873D7FBBD58AA533DF0 /* ProblemEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProblemEngine.swift; sourceTree = "<group>"; };
+		9D83F2B3FBEBFEC62F8DC08F /* PracticeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
+		A000105E73A6A620BCA29D31 /* problems.js */ = {isa = PBXFileReference; includeInIndex = 1; path = problems.js; sourceTree = "<group>"; };
+		A44C80968ABBFDBE71CCEE08 /* GateSettingsSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GateSettingsSection.swift; sourceTree = "<group>"; };
+		AB6768F6B4729E69AD71C854 /* Math7Monitor.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = Math7Monitor.entitlements; sourceTree = "<group>"; };
+		B72263E9E32FFB705C4F7DB0 /* GateManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GateManager.swift; sourceTree = "<group>"; };
+		C18E0C8E1B09F015DC92F264 /* Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		C34471B3B8D6F55507891037 /* GateShared.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GateShared.swift; sourceTree = "<group>"; };
+		C3AD9161636882174BCF005A /* Math7Shield.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = Math7Shield.entitlements; sourceTree = "<group>"; };
+		C8A116CF791DF474F7E21C59 /* Math7App.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Math7App.swift; sourceTree = "<group>"; };
+		C8CAD0B2DDC1A4BEC87CCD89 /* PracticeSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PracticeSession.swift; sourceTree = "<group>"; };
+		C94212D07DD9994C9BF04E31 /* Math7Shield.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Math7Shield.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD769D758A906338A02B0B88 /* Monitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Monitor.swift; sourceTree = "<group>"; };
+		E0A636A1A06AAA0C06D0F6E9 /* question.html */ = {isa = PBXFileReference; includeInIndex = 1; path = question.html; sourceTree = "<group>"; };
+		E4E362E0882B022682F5461A /* Math7Monitor.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Math7Monitor.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E997A6259839162FF461CFCD /* QuestionWebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QuestionWebView.swift; sourceTree = "<group>"; };
+		EF52EE8C59313A58DE157398 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F8F728641867E397A0940839 /* ProgressData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProgressData.swift; sourceTree = "<group>"; };
+		FFC50B9D1FDBB04C4CE9466D /* Math7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Math7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4FA407C5843A62919ADAA31C /* Frameworks */ = {
+		727D69F97DFF71CFDD0E0286 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5284413DD8AA38BC5C3579EF /* Frameworks */ = {
+		9059ECE1FDC1D5577ECF3A0F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB52FA4FB175787CECC222DA /* Frameworks */ = {
+		C9205497A3AFDF1A4BAD4821 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4C51226079328D33B0B1BC9 /* Frameworks */ = {
+		EB377239D8CBAAECB8B192E7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -155,207 +158,188 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		032E0BBD036B1F8E60C116A5 /* Math7Monitor */ = {
+		1C10B977D4E243ED3CB0F3C9 /* Gate */ = {
 			isa = PBXGroup;
 			children = (
-				E57E5EB8323953362D3383F9 /* Info.plist */,
-				4EA43601BC2AB33EA2E6A624 /* Math7Monitor.entitlements */,
-				316960BB80E6B25970A2FE45 /* Monitor.swift */,
-			);
-			name = Math7Monitor;
-			path = Math7Monitor;
-			sourceTree = "<group>";
-		};
-		0C75C381719AD894126659B8 /* Engine */ = {
-			isa = PBXGroup;
-			children = (
-				CF3FF9D6A6CCAD06A40B0822 /* ProblemEngine.swift */,
-			);
-			name = Engine;
-			path = Engine;
-			sourceTree = "<group>";
-		};
-		2424E9BBC27B030B6C691DA8 /* Config */ = {
-			isa = PBXGroup;
-			children = (
-				C7D5E8B94F35CF6E544BB67A /* Settings.xcconfig */,
-			);
-			name = Config;
-			path = Config;
-			sourceTree = "<group>";
-		};
-		27426FCF251EAE1767787CC3 = {
-			isa = PBXGroup;
-			children = (
-				2424E9BBC27B030B6C691DA8 /* Config */,
-				377C0588008847E8842651ED /* Frameworks */,
-				C961E4A5347A0BCCAA0F9FDD /* Math7 */,
-				032E0BBD036B1F8E60C116A5 /* Math7Monitor */,
-				7E806C5F76A36C2549C1E634 /* Math7Shield */,
-				BF5B53B7B1C420B2E2DAFE52 /* Products */,
-				77EA3823B1642B73352D5E4A /* Shared */,
-				AE352722933EEAF5D5943B89 /* Shared with web app */,
-			);
-			sourceTree = "<group>";
-		};
-		29A769B7E4D3C1AD65412A41 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				C67B1FD504E22A6695479A71 /* PracticeSession.swift */,
-				37BA824BBAC09F420DD46722 /* ProgressData.swift */,
-				52A9338805D1BFF1C3A21647 /* Store.swift */,
-			);
-			name = Model;
-			path = Model;
-			sourceTree = "<group>";
-		};
-		377C0588008847E8842651ED /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C5EFE508330EEC83063EACB8 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		77EA3823B1642B73352D5E4A /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				F55123596B3CD138D65575BE /* ActivityNames.swift */,
-				CB3071BCF0F031B324F71CD9 /* GateShared.swift */,
-			);
-			name = Shared;
-			path = Shared;
-			sourceTree = "<group>";
-		};
-		7E806C5F76A36C2549C1E634 /* Math7Shield */ = {
-			isa = PBXGroup;
-			children = (
-				EEC0DAC6B0668FD4E77F1557 /* Info.plist */,
-				7F7C2F4E06799AB802CCA112 /* Math7Shield.entitlements */,
-				E68311918335EF70697488BF /* ShieldConfigurationExtension.swift */,
-			);
-			name = Math7Shield;
-			path = Math7Shield;
-			sourceTree = "<group>";
-		};
-		8FF1B1DB589E5C8526A23E5A /* Handwriting */ = {
-			isa = PBXGroup;
-			children = (
-				D2BBB7321A97D44E4F8CA369 /* CanvasViews.swift */,
-				688044F178A921A568077655 /* HandwritingRecognizer.swift */,
-			);
-			name = Handwriting;
-			path = Handwriting;
-			sourceTree = "<group>";
-		};
-		AE352722933EEAF5D5943B89 /* Shared with web app */ = {
-			isa = PBXGroup;
-			children = (
-				D44AE80691835A6FF26427F0 /* problems.js */,
-			);
-			name = "Shared with web app";
-			path = ..;
-			sourceTree = "<group>";
-		};
-		B47E1FF46652DF8D8FF0846E /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				5F10AD872CBB727B6F0F6A0B /* HomeView.swift */,
-				5458BC2D450BF48E5B71E0E2 /* ParentView.swift */,
-				0828CDEF5712E8DE3CE6DDD2 /* PracticeView.swift */,
-				56DEE97DFD2020A0DA59DDBF /* QuestionWebView.swift */,
-				ED25FC0B3D8B87A92A85B756 /* Theme.swift */,
-				2B3EFD2CB425627684A6987A /* UnitAndSummaryViews.swift */,
-			);
-			name = Views;
-			path = Views;
-			sourceTree = "<group>";
-		};
-		BBEBDB33C20FFAD570577C1B /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				E1C1C92531D15D867A40F375 /* Assets.xcassets */,
-				D700E8A46C21541BF8024A54 /* question.html */,
-			);
-			name = Resources;
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		BF5B53B7B1C420B2E2DAFE52 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				316D60C6D8F1DA76437C3DE2 /* Math7.app */,
-				B0F2B40189D0B9200FD2E60C /* Math7Lock.app */,
-				4C02FAE59333E636487A9A42 /* Math7Monitor.appex */,
-				FB94434E8854247C2146A889 /* Math7Shield.appex */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		C5EFE508330EEC83063EACB8 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				51F2839C197209A0F45574D3 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		C961E4A5347A0BCCAA0F9FDD /* Math7 */ = {
-			isa = PBXGroup;
-			children = (
-				0C75C381719AD894126659B8 /* Engine */,
-				E134139D7DB8969431F47258 /* Gate */,
-				8FF1B1DB589E5C8526A23E5A /* Handwriting */,
-				92270210B55803E62C5FAC5F /* Math7App.swift */,
-				CD0E7F6668A33A6F97DA7198 /* Math7Lock.entitlements */,
-				29A769B7E4D3C1AD65412A41 /* Model */,
-				BBEBDB33C20FFAD570577C1B /* Resources */,
-				B47E1FF46652DF8D8FF0846E /* Views */,
-			);
-			name = Math7;
-			path = Math7;
-			sourceTree = "<group>";
-		};
-		E134139D7DB8969431F47258 /* Gate */ = {
-			isa = PBXGroup;
-			children = (
-				3547D374EA41DBD2AF7D7F2D /* GateManager.swift */,
-				8F4A04907B1491E331B45835 /* GateSettingsSection.swift */,
+				B72263E9E32FFB705C4F7DB0 /* GateManager.swift */,
+				A44C80968ABBFDBE71CCEE08 /* GateSettingsSection.swift */,
 			);
 			name = Gate;
 			path = Gate;
 			sourceTree = "<group>";
 		};
+		31125AC1474E14E7FDBC8A2B = {
+			isa = PBXGroup;
+			children = (
+				592257AC81512D286AB05E06 /* Config */,
+				E54933BA183CE986C05A84C7 /* Frameworks */,
+				FBFEC5BD8D1A56A8ACFB79F5 /* Math7 */,
+				A4E0B616DE59E46F44BBEC28 /* Math7Monitor */,
+				4CFAFE9EFE520B6B3106B509 /* Math7Shield */,
+				8C456ED866CBE185C2166D5D /* Products */,
+				DAD904BFDD2196861F949BB3 /* Shared */,
+				E23EF4C292037CA044C6DFCB /* Shared with web app */,
+			);
+			sourceTree = "<group>";
+		};
+		35181B7B77A27BF2EB4E5326 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2292E1EC58B65EDA5D35771F /* Assets.xcassets */,
+				E0A636A1A06AAA0C06D0F6E9 /* question.html */,
+			);
+			name = Resources;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		41C14FE63A7F7CDB41797C95 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3BAC14C471D44CF332A175B1 /* HomeView.swift */,
+				0FADE4DAB10C6C98AF8C4351 /* ParentView.swift */,
+				9D83F2B3FBEBFEC62F8DC08F /* PracticeView.swift */,
+				E997A6259839162FF461CFCD /* QuestionWebView.swift */,
+				C18E0C8E1B09F015DC92F264 /* Theme.swift */,
+				1CDBA9D8527B289DDB671E56 /* UnitAndSummaryViews.swift */,
+			);
+			name = Views;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4CFAFE9EFE520B6B3106B509 /* Math7Shield */ = {
+			isa = PBXGroup;
+			children = (
+				21FFC06FDF036133D921FC63 /* Info.plist */,
+				C3AD9161636882174BCF005A /* Math7Shield.entitlements */,
+				5C020E4565031531F59FBF83 /* ShieldConfigurationExtension.swift */,
+			);
+			name = Math7Shield;
+			path = Math7Shield;
+			sourceTree = "<group>";
+		};
+		592257AC81512D286AB05E06 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				6DAF64BAD64018CA03300D4A /* Settings.xcconfig */,
+			);
+			name = Config;
+			path = Config;
+			sourceTree = "<group>";
+		};
+		69F3AC9D3233534AD4B0BDA3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C8CAD0B2DDC1A4BEC87CCD89 /* PracticeSession.swift */,
+				F8F728641867E397A0940839 /* ProgressData.swift */,
+				68E6866FE7F751F3D0B7EF36 /* Store.swift */,
+			);
+			name = Model;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8C456ED866CBE185C2166D5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFC50B9D1FDBB04C4CE9466D /* Math7.app */,
+				7239B444B9E7149BBBEA7121 /* Math7Lock.app */,
+				E4E362E0882B022682F5461A /* Math7Monitor.appex */,
+				C94212D07DD9994C9BF04E31 /* Math7Shield.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4E0B616DE59E46F44BBEC28 /* Math7Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				06C0D53B593B70C9CDC6014E /* Info.plist */,
+				AB6768F6B4729E69AD71C854 /* Math7Monitor.entitlements */,
+				DD769D758A906338A02B0B88 /* Monitor.swift */,
+			);
+			name = Math7Monitor;
+			path = Math7Monitor;
+			sourceTree = "<group>";
+		};
+		D2344C97BE24B6B18AAED257 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EF52EE8C59313A58DE157398 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DAD904BFDD2196861F949BB3 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				7CF442A8B7474935334E1D59 /* ActivityNames.swift */,
+				C34471B3B8D6F55507891037 /* GateShared.swift */,
+			);
+			name = Shared;
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		DCB22D61C9DFF5471B7BC6ED /* Handwriting */ = {
+			isa = PBXGroup;
+			children = (
+				8269FA2137D6B8D877F3BF34 /* CanvasViews.swift */,
+				30A62925A7C65BBCF8EB9441 /* DigitRecognizer.swift */,
+				390F118732D770426FCE9890 /* HandwritingRecognizer.swift */,
+			);
+			name = Handwriting;
+			path = Handwriting;
+			sourceTree = "<group>";
+		};
+		E23EF4C292037CA044C6DFCB /* Shared with web app */ = {
+			isa = PBXGroup;
+			children = (
+				A000105E73A6A620BCA29D31 /* problems.js */,
+			);
+			name = "Shared with web app";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		E54933BA183CE986C05A84C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2344C97BE24B6B18AAED257 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EADC8359784E525B46B4C2B1 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				8D0CB873D7FBBD58AA533DF0 /* ProblemEngine.swift */,
+			);
+			name = Engine;
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		FBFEC5BD8D1A56A8ACFB79F5 /* Math7 */ = {
+			isa = PBXGroup;
+			children = (
+				EADC8359784E525B46B4C2B1 /* Engine */,
+				1C10B977D4E243ED3CB0F3C9 /* Gate */,
+				DCB22D61C9DFF5471B7BC6ED /* Handwriting */,
+				C8A116CF791DF474F7E21C59 /* Math7App.swift */,
+				45145A0BEB949AFB1847D534 /* Math7Lock.entitlements */,
+				69F3AC9D3233534AD4B0BDA3 /* Model */,
+				35181B7B77A27BF2EB4E5326 /* Resources */,
+				41C14FE63A7F7CDB41797C95 /* Views */,
+			);
+			name = Math7;
+			path = Math7;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2204C2ABE8D3219CEAC7560A /* Math7Lock */ = {
+		27914BC5B76D1AE63FF99692 /* Math7 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 02A6D4537AE3BE310D9E4768 /* Build configuration list for PBXNativeTarget "Math7Lock" */;
+			buildConfigurationList = CB7A3C83C4A713C9D7381A31 /* Build configuration list for PBXNativeTarget "Math7" */;
 			buildPhases = (
-				23C0627334A1B913A71E255F /* Sources */,
-				F4C51226079328D33B0B1BC9 /* Frameworks */,
-				2910C964CE45A7B19CFFF26F /* Resources */,
-				0BE12960BE48A3D1E17A77F9 /* Embed Foundation Extensions */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				08B47F93CD8705146241ED48 /* PBXTargetDependency */,
-				A9F9F111C0B51E884E021449 /* PBXTargetDependency */,
-			);
-			name = Math7Lock;
-			productName = Math7Lock;
-			productReference = B0F2B40189D0B9200FD2E60C /* Math7Lock.app */;
-			productType = "com.apple.product-type.application";
-		};
-		30571D7B84D7355E5F24E76C /* Math7 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C7F9F8CDF19A5538237B0F0E /* Build configuration list for PBXNativeTarget "Math7" */;
-			buildPhases = (
-				D2316A4814E054CEDCAE9D02 /* Sources */,
-				DB52FA4FB175787CECC222DA /* Frameworks */,
-				AAEAF04074EB9FD484EEE08F /* Resources */,
+				DC639D706388D1889B3F5B6F /* Sources */,
+				C9205497A3AFDF1A4BAD4821 /* Frameworks */,
+				A3C06FDBF721AAEFE332ED13 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -363,16 +347,16 @@
 			);
 			name = Math7;
 			productName = Math7;
-			productReference = 316D60C6D8F1DA76437C3DE2 /* Math7.app */;
+			productReference = FFC50B9D1FDBB04C4CE9466D /* Math7.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3B0BAAA041E851C92ADB887C /* Math7Shield */ = {
+		40B650F6FE592B73985FEA99 /* Math7Shield */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9206739CB81F4358F72D7CE /* Build configuration list for PBXNativeTarget "Math7Shield" */;
+			buildConfigurationList = E6E8B8AAFE12237DAA0EE4E6 /* Build configuration list for PBXNativeTarget "Math7Shield" */;
 			buildPhases = (
-				D6BBF33535B051E41C03771F /* Sources */,
-				5284413DD8AA38BC5C3579EF /* Frameworks */,
-				E57BB57F8C93C12BFB56291F /* Resources */,
+				0E5F43215EF92E76572762AC /* Sources */,
+				9059ECE1FDC1D5577ECF3A0F /* Frameworks */,
+				239F4D07F7F4ED5F7080D586 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -380,16 +364,16 @@
 			);
 			name = Math7Shield;
 			productName = Math7Shield;
-			productReference = FB94434E8854247C2146A889 /* Math7Shield.appex */;
+			productReference = C94212D07DD9994C9BF04E31 /* Math7Shield.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		FD60645AD91057C6B45AFB6B /* Math7Monitor */ = {
+		8027869C38ED10A1A3FB44C2 /* Math7Monitor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B642C3CF1013B3049E0A776 /* Build configuration list for PBXNativeTarget "Math7Monitor" */;
+			buildConfigurationList = ABD00F0E0E0EF4F32AA77798 /* Build configuration list for PBXNativeTarget "Math7Monitor" */;
 			buildPhases = (
-				FB8BEEEE88ECD2E47F1499F0 /* Sources */,
-				4FA407C5843A62919ADAA31C /* Frameworks */,
-				EB2533996AC20CBF611ACF06 /* Resources */,
+				0DB979ECDFC2D804DD57DD7B /* Sources */,
+				727D69F97DFF71CFDD0E0286 /* Frameworks */,
+				33C8EE559BC325D870576843 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -397,13 +381,33 @@
 			);
 			name = Math7Monitor;
 			productName = Math7Monitor;
-			productReference = 4C02FAE59333E636487A9A42 /* Math7Monitor.appex */;
+			productReference = E4E362E0882B022682F5461A /* Math7Monitor.appex */;
 			productType = "com.apple.product-type.app-extension";
+		};
+		98FB29BC74E7161A45943CF9 /* Math7Lock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32B34B391DE24D236639A4E8 /* Build configuration list for PBXNativeTarget "Math7Lock" */;
+			buildPhases = (
+				E863C57319A5BC83F539FF5E /* Sources */,
+				EB377239D8CBAAECB8B192E7 /* Frameworks */,
+				516CD42FC90342E656AA1C4B /* Resources */,
+				0326166E6EBCF84C557E1484 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B994F9BFC7C2406D2148BB8 /* PBXTargetDependency */,
+				AA8FC85C481AD825A20BB6CE /* PBXTargetDependency */,
+			);
+			name = Math7Lock;
+			productName = Math7Lock;
+			productReference = 7239B444B9E7149BBBEA7121 /* Math7Lock.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A685956D529BEC98830F95C3 /* Project object */ = {
+		228C664A3111C91689492455 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1600;
@@ -411,7 +415,7 @@
 				TargetAttributes = {
 				};
 			};
-			buildConfigurationList = 28E2A5CFCFE9BBB797FCA89F /* Build configuration list for PBXProject "Math7" */;
+			buildConfigurationList = 06903A880E201F9046E68EDE /* Build configuration list for PBXProject "Math7" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -419,167 +423,164 @@
 				en,
 				Base,
 			);
-			mainGroup = 27426FCF251EAE1767787CC3;
+			mainGroup = 31125AC1474E14E7FDBC8A2B;
 			minimizedProjectReferenceProxies = 0;
 			preferredProjectObjectVersion = 100;
-			productRefGroup = BF5B53B7B1C420B2E2DAFE52 /* Products */;
+			productRefGroup = 8C456ED866CBE185C2166D5D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				30571D7B84D7355E5F24E76C /* Math7 */,
-				2204C2ABE8D3219CEAC7560A /* Math7Lock */,
-				FD60645AD91057C6B45AFB6B /* Math7Monitor */,
-				3B0BAAA041E851C92ADB887C /* Math7Shield */,
+				27914BC5B76D1AE63FF99692 /* Math7 */,
+				98FB29BC74E7161A45943CF9 /* Math7Lock */,
+				8027869C38ED10A1A3FB44C2 /* Math7Monitor */,
+				40B650F6FE592B73985FEA99 /* Math7Shield */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2910C964CE45A7B19CFFF26F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7E5F1767E05641B4517CD143 /* Assets.xcassets in Resources */,
-				BFF3A58FC2F40F44AA4BB884 /* problems.js in Resources */,
-				C5A310E3996FA52015F42810 /* question.html in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AAEAF04074EB9FD484EEE08F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				37C7676F49A0EFCDC185D5BD /* Assets.xcassets in Resources */,
-				29E2FBA7C8AC40C593154157 /* problems.js in Resources */,
-				6AEF56345C6DC49A59EE5D23 /* question.html in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E57BB57F8C93C12BFB56291F /* Resources */ = {
+		239F4D07F7F4ED5F7080D586 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB2533996AC20CBF611ACF06 /* Resources */ = {
+		33C8EE559BC325D870576843 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516CD42FC90342E656AA1C4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1AC1ACAB1C601EC0B7761A4 /* Assets.xcassets in Resources */,
+				4B835DF9DBF370F72C2AA4FB /* problems.js in Resources */,
+				E842398C7E13DCD4EA69A58D /* question.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3C06FDBF721AAEFE332ED13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F741B1CC22BA1A03BF6B93BE /* Assets.xcassets in Resources */,
+				E91C23B1A6C6759972917A9A /* problems.js in Resources */,
+				F3D19A322FFA4873D2BB005E /* question.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		23C0627334A1B913A71E255F /* Sources */ = {
+		0DB979ECDFC2D804DD57DD7B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5508C6482D30D3B442392CAD /* ActivityNames.swift in Sources */,
-				4403C7D26AA4E2A218799804 /* CanvasViews.swift in Sources */,
-				F8305C4DDFEDC2BCC9976E71 /* GateManager.swift in Sources */,
-				6B22038E25375120AFB636D6 /* GateSettingsSection.swift in Sources */,
-				D705E2FA4FF3AE6854444A64 /* GateShared.swift in Sources */,
-				9DA2B07398AB23F097DBE406 /* HandwritingRecognizer.swift in Sources */,
-				273E89E37D36A4111AED30AF /* HomeView.swift in Sources */,
-				82032BB8661ABABA84515062 /* Math7App.swift in Sources */,
-				5B2624E1B0AC005DD5BED900 /* ParentView.swift in Sources */,
-				3678808635C760A713F1519A /* PracticeSession.swift in Sources */,
-				05A2B271242F64D6B364B606 /* PracticeView.swift in Sources */,
-				3DB74E9C7AEAE44596954E0A /* ProblemEngine.swift in Sources */,
-				96E4C1B706CE7AD3AA9490CD /* ProgressData.swift in Sources */,
-				89364A103B654F0E8984397F /* QuestionWebView.swift in Sources */,
-				F0D9312111AA38EC6DC19844 /* Store.swift in Sources */,
-				3B66DD636425A221F6C525BD /* Theme.swift in Sources */,
-				6017C28D20D099E7F284EE48 /* UnitAndSummaryViews.swift in Sources */,
+				FA7DE737D1D0350750EE75B8 /* ActivityNames.swift in Sources */,
+				B0C1FEA8DA85226B2918A17C /* GateShared.swift in Sources */,
+				B743D0260117D8113FF784F5 /* Monitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2316A4814E054CEDCAE9D02 /* Sources */ = {
+		0E5F43215EF92E76572762AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EB375B686DBF4E8EAA3542A /* ActivityNames.swift in Sources */,
-				BA45CAFA99EFCF3EF84CEAB3 /* CanvasViews.swift in Sources */,
-				0DBA0F49CC5AC0DD795BB1C1 /* GateManager.swift in Sources */,
-				C56681F32BC9DB0C736B4144 /* GateSettingsSection.swift in Sources */,
-				1E8A178AA398FF1AAD8B8F37 /* GateShared.swift in Sources */,
-				88BCDE964A1CD4581237F6EF /* HandwritingRecognizer.swift in Sources */,
-				248F9EE46C3A1B17D6958AE4 /* HomeView.swift in Sources */,
-				B3469536C6FC25D47573AA76 /* Math7App.swift in Sources */,
-				A67E153D8315F0E0BA8112B5 /* ParentView.swift in Sources */,
-				7A624E09DC188DF62FD95BA4 /* PracticeSession.swift in Sources */,
-				52D98453222CEB3067A788A6 /* PracticeView.swift in Sources */,
-				F23EED7164E71D0C7F59ACE2 /* ProblemEngine.swift in Sources */,
-				3F4F3F4ED26EE7FD249D5D4F /* ProgressData.swift in Sources */,
-				34F689D9B69430315400B97C /* QuestionWebView.swift in Sources */,
-				1BFD6FE5742E3E1714A8A2F6 /* Store.swift in Sources */,
-				3931EFBA01FF4DE9EC52A18F /* Theme.swift in Sources */,
-				5C04119F05683D6F92A69220 /* UnitAndSummaryViews.swift in Sources */,
+				00DDC0A2A8F731329B3EEA7C /* ShieldConfigurationExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6BBF33535B051E41C03771F /* Sources */ = {
+		DC639D706388D1889B3F5B6F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A525DBAD8BE0AC1E4AC55B23 /* ShieldConfigurationExtension.swift in Sources */,
+				33C941D824F83AA62414BA55 /* ActivityNames.swift in Sources */,
+				4A54475043800E6DB8DC8243 /* CanvasViews.swift in Sources */,
+				9B7C828BA0319BFD88F2D34B /* DigitRecognizer.swift in Sources */,
+				3FEF29115ADB4C7B19D00ED4 /* GateManager.swift in Sources */,
+				FD62C0D43EC15BF7ADED48F7 /* GateSettingsSection.swift in Sources */,
+				D190112D4E91673A20082356 /* GateShared.swift in Sources */,
+				1E4CD5A4C2E790045FCC4107 /* HandwritingRecognizer.swift in Sources */,
+				5A7692F9C528FDBAD120E9EF /* HomeView.swift in Sources */,
+				D5A615BCF65BE6ACC2824E2F /* Math7App.swift in Sources */,
+				5677BA359673B8F5DB94B385 /* ParentView.swift in Sources */,
+				8FD90C4C23794320441CD0F8 /* PracticeSession.swift in Sources */,
+				F29C04E3DC8F5164C54CD1A2 /* PracticeView.swift in Sources */,
+				9DDB7163204EE9483AF775B6 /* ProblemEngine.swift in Sources */,
+				380418B6223A6771336E5986 /* ProgressData.swift in Sources */,
+				32207D7443477D9DB42D3D7B /* QuestionWebView.swift in Sources */,
+				759EA1254AD533F29AEFD1F3 /* Store.swift in Sources */,
+				A86308B0E916E4C23C311F01 /* Theme.swift in Sources */,
+				0D807DF025238E80F2978567 /* UnitAndSummaryViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB8BEEEE88ECD2E47F1499F0 /* Sources */ = {
+		E863C57319A5BC83F539FF5E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				225087CB9DDD2D80CC61A5EB /* ActivityNames.swift in Sources */,
-				B99FA8EDCA2B3E52F92EAE78 /* GateShared.swift in Sources */,
-				303D77025F92C6E7ADA637EE /* Monitor.swift in Sources */,
+				AFDED322AF0E3933C5C54AD6 /* ActivityNames.swift in Sources */,
+				E5DD1591FF4598AFAA5DE7EA /* CanvasViews.swift in Sources */,
+				4CAE0537C9891A9247AE6CA3 /* DigitRecognizer.swift in Sources */,
+				744C8EC5E6DD5FE9F8CFBF3A /* GateManager.swift in Sources */,
+				C978169A879618679BBB763D /* GateSettingsSection.swift in Sources */,
+				215782D6C7FBB292532399D3 /* GateShared.swift in Sources */,
+				E3BA9EEAA27D1355EECD06F6 /* HandwritingRecognizer.swift in Sources */,
+				9E15F44FB13A38099CAEE0D8 /* HomeView.swift in Sources */,
+				9E8141C085C253A9F707DDB1 /* Math7App.swift in Sources */,
+				85DB99857CAAD3941BDFA83D /* ParentView.swift in Sources */,
+				BF0B284159A5D91CFE3999EA /* PracticeSession.swift in Sources */,
+				E5823126306EDC878B482381 /* PracticeView.swift in Sources */,
+				CCCB8E354ADF9F700EA5CB0C /* ProblemEngine.swift in Sources */,
+				0E627289F839345C0312D033 /* ProgressData.swift in Sources */,
+				6B35808A8C418C660004BC63 /* QuestionWebView.swift in Sources */,
+				79B82B613B673716520CFF43 /* Store.swift in Sources */,
+				D51B778E89003DC9C6BE3BFE /* Theme.swift in Sources */,
+				A7B9C7BF08B1B56B8622F1A7 /* UnitAndSummaryViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		08B47F93CD8705146241ED48 /* PBXTargetDependency */ = {
+		2B994F9BFC7C2406D2148BB8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Math7Monitor;
-			target = FD60645AD91057C6B45AFB6B /* Math7Monitor */;
-			targetProxy = 0C85D358C53A5AA01CFF74B9 /* PBXContainerItemProxy */;
+			target = 8027869C38ED10A1A3FB44C2 /* Math7Monitor */;
+			targetProxy = DA236B8B1CF0E165BF6B31BC /* PBXContainerItemProxy */;
 		};
-		A9F9F111C0B51E884E021449 /* PBXTargetDependency */ = {
+		AA8FC85C481AD825A20BB6CE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Math7Shield;
-			target = 3B0BAAA041E851C92ADB887C /* Math7Shield */;
-			targetProxy = 1C8EE4C7175B29457150A854 /* PBXContainerItemProxy */;
+			target = 40B650F6FE592B73985FEA99 /* Math7Shield */;
+			targetProxy = ACBE22A98FB90CB8C17D923C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0959588E0D32D24AF1C64C9A /* Release */ = {
+		0D3D1B02155D637DC9368026 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_ENTITLEMENTS = Math7/Math7Lock.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Math7Monitor/Math7Monitor.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Math 7";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_FILE = Math7Monitor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Math7Monitor;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX)";
-				PRODUCT_NAME = Math7Lock;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).monitor";
+				PRODUCT_NAME = Math7Monitor;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) GATE_On";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -587,37 +588,7 @@
 			};
 			name = Release;
 		};
-		6D2580408E541D2D19E2B31F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Math 7";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX)";
-				PRODUCT_NAME = Math7;
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) GATE_Off";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 2;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		6EA074ED33C1B76850220C1D /* Debug */ = {
+		201BC210805C3BE22141AB50 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -646,35 +617,9 @@
 			};
 			name = Debug;
 		};
-		97336186B6789D85AC83B3B2 /* Release */ = {
+		4D1656F964E46153880B16C8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_ENTITLEMENTS = Math7Shield/Math7Shield.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Math7Shield/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Math7Shield;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).shield";
-				PRODUCT_NAME = Math7Shield;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 2;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		98805ED9887D1CC8A941F449 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7D5E8B94F35CF6E544BB67A /* Settings.xcconfig */;
+			baseConfigurationReference = 6DAF64BAD64018CA03300D4A /* Settings.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -727,7 +672,62 @@
 			};
 			name = Release;
 		};
-		B473C7FF049F3DD5AB987E80 /* Release */ = {
+		7A2A9357E610E82382DEC291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Math 7";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX)";
+				PRODUCT_NAME = Math7;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) GATE_Off";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B4C6D502B5F5F019658A65A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = Math7Shield/Math7Shield.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Math7Shield/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Math7Shield;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).shield";
+				PRODUCT_NAME = Math7Shield;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A8E6DEE619B24552CE9BAB0A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
@@ -749,13 +749,68 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B9BF2EAD1627FD7F59AE8D01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = Math7Shield/Math7Shield.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Math7Shield/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Math7Shield;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).shield";
+				PRODUCT_NAME = Math7Shield;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		BC85C5A9D2FF49DB5AD1AD9D /* Debug */ = {
+		D9BD9F64B543B24D94E32445 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7D5E8B94F35CF6E544BB67A /* Settings.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = Math7/Math7Lock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Math 7";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX)";
+				PRODUCT_NAME = Math7Lock;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) GATE_On DEBUG";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		EDE989B97E72242858F6DBC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DAF64BAD64018CA03300D4A /* Settings.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -815,57 +870,7 @@
 			};
 			name = Debug;
 		};
-		E6236AEB6DBF6E1AF6F48DAA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_ENTITLEMENTS = Math7Monitor/Math7Monitor.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Math7Monitor/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Math7Monitor;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).monitor";
-				PRODUCT_NAME = Math7Monitor;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 2;
-			};
-			name = Debug;
-		};
-		F10FB54DD914E10126C5D7BF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_ENTITLEMENTS = Math7Shield/Math7Shield.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Math7Shield/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Math7Shield;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).shield";
-				PRODUCT_NAME = Math7Shield;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 2;
-			};
-			name = Debug;
-		};
-		FF9C9C19179F207F3F378641 /* Debug */ = {
+		F6C1EAECE2154CE026C4DC43 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -888,62 +893,63 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX)";
 				PRODUCT_NAME = Math7Lock;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) GATE_On DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) GATE_On";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		02A6D4537AE3BE310D9E4768 /* Build configuration list for PBXNativeTarget "Math7Lock" */ = {
+		06903A880E201F9046E68EDE /* Build configuration list for PBXProject "Math7" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF9C9C19179F207F3F378641 /* Debug */,
-				0959588E0D32D24AF1C64C9A /* Release */,
+				EDE989B97E72242858F6DBC5 /* Debug */,
+				4D1656F964E46153880B16C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28E2A5CFCFE9BBB797FCA89F /* Build configuration list for PBXProject "Math7" */ = {
+		32B34B391DE24D236639A4E8 /* Build configuration list for PBXNativeTarget "Math7Lock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BC85C5A9D2FF49DB5AD1AD9D /* Debug */,
-				98805ED9887D1CC8A941F449 /* Release */,
+				D9BD9F64B543B24D94E32445 /* Debug */,
+				F6C1EAECE2154CE026C4DC43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B642C3CF1013B3049E0A776 /* Build configuration list for PBXNativeTarget "Math7Monitor" */ = {
+		ABD00F0E0E0EF4F32AA77798 /* Build configuration list for PBXNativeTarget "Math7Monitor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E6236AEB6DBF6E1AF6F48DAA /* Debug */,
-				B473C7FF049F3DD5AB987E80 /* Release */,
+				A8E6DEE619B24552CE9BAB0A /* Debug */,
+				0D3D1B02155D637DC9368026 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9206739CB81F4358F72D7CE /* Build configuration list for PBXNativeTarget "Math7Shield" */ = {
+		CB7A3C83C4A713C9D7381A31 /* Build configuration list for PBXNativeTarget "Math7" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F10FB54DD914E10126C5D7BF /* Debug */,
-				97336186B6789D85AC83B3B2 /* Release */,
+				201BC210805C3BE22141AB50 /* Debug */,
+				7A2A9357E610E82382DEC291 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C7F9F8CDF19A5538237B0F0E /* Build configuration list for PBXNativeTarget "Math7" */ = {
+		E6E8B8AAFE12237DAA0EE4E6 /* Build configuration list for PBXNativeTarget "Math7Shield" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6EA074ED33C1B76850220C1D /* Debug */,
-				6D2580408E541D2D19E2B31F /* Release */,
+				7B4C6D502B5F5F019658A65A /* Debug */,
+				B9BF2EAD1627FD7F59AE8D01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A685956D529BEC98830F95C3 /* Project object */;
+	rootObject = 228C664A3111C91689492455 /* Project object */;
 }

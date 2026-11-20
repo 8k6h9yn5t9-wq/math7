@@ -18,7 +18,7 @@ enum HandwritingRecognizer {
 
     private enum Piece {
         case text(String)
-        case digits([PKStroke])
+        case digits([[PKStroke]])   // one entry per handwritten character
     }
 
     private struct Layout {
@@ -33,15 +33,15 @@ enum HandwritingRecognizer {
         let layout = makeLayout(strokes)
 
         // Render every digit run to an image now (on the main thread), then read them in the background.
-        var runs: [[PKStroke]] = []
+        var runs: [[[PKStroke]]] = []
         func collect(_ pieces: [Piece]?) { pieces?.forEach { if case .digits(let s) = $0 { runs.append(s) } } }
         collect(layout.whole); collect(layout.numerator); collect(layout.denominator)
-        let images = runs.map(render)
+        let images = runs.map { render($0.flatMap { $0 }) }
 
         DispatchQueue.global(qos: .userInitiated).async {
             var texts: [String?] = []
             for (i, img) in images.enumerated() {
-                texts.append(readDigits(img) ?? geometricGuess(runs[i]))
+                texts.append(readRun(image: img, characters: runs[i]))
             }
             var cursor = 0
             func assemble(_ pieces: [Piece]?) -> String? {
@@ -128,7 +128,7 @@ enum HandwritingRecognizer {
         let lineH = max(tall, 20)
 
         var pieces: [Piece] = []
-        var run: [PKStroke] = []
+        var run: [[PKStroke]] = []
         func flush() { if !run.isEmpty { pieces.append(.digits(run)); run = [] } }
 
         for (i, c) in clusters.enumerated() {
@@ -142,7 +142,7 @@ enum HandwritingRecognizer {
             } else if single && !isFirst && !isLast && isSlash(c.strokes[0], lineH: lineH) {
                 flush(); pieces.append(.text("/"))
             } else {
-                run.append(contentsOf: c.strokes)
+                run.append(c.strokes)
             }
         }
         flush()
@@ -223,11 +223,18 @@ enum HandwritingRecognizer {
         return out.contains(where: \.isNumber) ? out : nil
     }
 
-    /// When Vision returns nothing for a single tall thin stroke, it's a 1.
-    private static func geometricGuess(_ strokes: [PKStroke]) -> String? {
-        guard strokes.count == 1 else { return nil }
-        let r = strokes[0].renderBounds
-        return r.width < r.height * 0.3 ? "1" : nil
+    /// Use Vision when it found one digit per handwritten character; otherwise (it often returns
+    /// nothing for a lone digit, and doesn't work in the Simulator) read each character with $P.
+    private static func readRun(image: CGImage?, characters: [[PKStroke]]) -> String? {
+        if let v = readDigits(image), v.filter(\.isNumber).count == characters.count {
+            return v
+        }
+        var out = ""
+        for c in characters {
+            guard let m = DigitRecognizer.recognize(c) else { return nil }
+            out += m.digit
+        }
+        return out.isEmpty ? nil : out
     }
 
     // MARK: - Assembling

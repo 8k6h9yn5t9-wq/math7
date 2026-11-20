@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "30571D7B84D7355E5F24E76C"
+               BlueprintIdentifier = "27914BC5B76D1AE63FF99692"
                BuildableName = "Math7.app"
                BlueprintName = "Math7"
                ReferencedContainer = "container:Math7.xcodeproj">
@@ -30,7 +30,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "30571D7B84D7355E5F24E76C"
+            BlueprintIdentifier = "27914BC5B76D1AE63FF99692"
             BuildableName = "Math7.app"
             BlueprintName = "Math7"
             ReferencedContainer = "container:Math7.xcodeproj">
@@ -53,7 +53,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "30571D7B84D7355E5F24E76C"
+            BlueprintIdentifier = "27914BC5B76D1AE63FF99692"
             BuildableName = "Math7.app"
             BlueprintName = "Math7"
             ReferencedContainer = "container:Math7.xcodeproj">
@@ -70,7 +70,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "30571D7B84D7355E5F24E76C"
+            BlueprintIdentifier = "27914BC5B76D1AE63FF99692"
             BuildableName = "Math7.app"
             BlueprintName = "Math7"
             ReferencedContainer = "container:Math7.xcodeproj">
