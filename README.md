@@ -13,3 +13,8 @@ An iPad-friendly web app for 7th grade math practice. It follows the class pacin
 Progress is stored in the browser on the device (localStorage). Use **Back up progress** in the parent view to save a copy.
 
 No build step. To change the current class unit's dates, edit `PACING` in `problems.js`, or pick a unit in the parent view.
+
+## iPad app (native)
+
+The `ios/` folder has a native SwiftUI version with Apple Pencil handwriting answers and an optional Roblox lock
+(Screen Time) that unlocks games when the daily goal is met. It uses the same `problems.js`. See [ios/SETUP.md](ios/SETUP.md).

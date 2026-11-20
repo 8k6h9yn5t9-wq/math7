@@ -1,0 +1,949 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05A2B271242F64D6B364B606 /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0828CDEF5712E8DE3CE6DDD2 /* PracticeView.swift */; };
+		0DBA0F49CC5AC0DD795BB1C1 /* GateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3547D374EA41DBD2AF7D7F2D /* GateManager.swift */; };
+		1BFD6FE5742E3E1714A8A2F6 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A9338805D1BFF1C3A21647 /* Store.swift */; };
+		1E8A178AA398FF1AAD8B8F37 /* GateShared.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3071BCF0F031B324F71CD9 /* GateShared.swift */; };
+		225087CB9DDD2D80CC61A5EB /* ActivityNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55123596B3CD138D65575BE /* ActivityNames.swift */; };
+		248F9EE46C3A1B17D6958AE4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F10AD872CBB727B6F0F6A0B /* HomeView.swift */; };
+		273E89E37D36A4111AED30AF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F10AD872CBB727B6F0F6A0B /* HomeView.swift */; };
+		29E2FBA7C8AC40C593154157 /* problems.js in Resources */ = {isa = PBXBuildFile; fileRef = D44AE80691835A6FF26427F0 /* problems.js */; };
+		303D77025F92C6E7ADA637EE /* Monitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316960BB80E6B25970A2FE45 /* Monitor.swift */; };
+		34F689D9B69430315400B97C /* QuestionWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DEE97DFD2020A0DA59DDBF /* QuestionWebView.swift */; };
+		3678808635C760A713F1519A /* PracticeSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67B1FD504E22A6695479A71 /* PracticeSession.swift */; };
+		37C7676F49A0EFCDC185D5BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1C1C92531D15D867A40F375 /* Assets.xcassets */; };
+		3931EFBA01FF4DE9EC52A18F /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED25FC0B3D8B87A92A85B756 /* Theme.swift */; };
+		3B66DD636425A221F6C525BD /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED25FC0B3D8B87A92A85B756 /* Theme.swift */; };
+		3DB74E9C7AEAE44596954E0A /* ProblemEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3FF9D6A6CCAD06A40B0822 /* ProblemEngine.swift */; };
+		3F4F3F4ED26EE7FD249D5D4F /* ProgressData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BA824BBAC09F420DD46722 /* ProgressData.swift */; };
+		4403C7D26AA4E2A218799804 /* CanvasViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BBB7321A97D44E4F8CA369 /* CanvasViews.swift */; };
+		52D98453222CEB3067A788A6 /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0828CDEF5712E8DE3CE6DDD2 /* PracticeView.swift */; };
+		5508C6482D30D3B442392CAD /* ActivityNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55123596B3CD138D65575BE /* ActivityNames.swift */; };
+		5B2624E1B0AC005DD5BED900 /* ParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5458BC2D450BF48E5B71E0E2 /* ParentView.swift */; };
+		5C04119F05683D6F92A69220 /* UnitAndSummaryViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3EFD2CB425627684A6987A /* UnitAndSummaryViews.swift */; };
+		6017C28D20D099E7F284EE48 /* UnitAndSummaryViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3EFD2CB425627684A6987A /* UnitAndSummaryViews.swift */; };
+		6AEF56345C6DC49A59EE5D23 /* question.html in Resources */ = {isa = PBXBuildFile; fileRef = D700E8A46C21541BF8024A54 /* question.html */; };
+		6B22038E25375120AFB636D6 /* GateSettingsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4A04907B1491E331B45835 /* GateSettingsSection.swift */; };
+		7A624E09DC188DF62FD95BA4 /* PracticeSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67B1FD504E22A6695479A71 /* PracticeSession.swift */; };
+		7E5F1767E05641B4517CD143 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1C1C92531D15D867A40F375 /* Assets.xcassets */; };
+		82032BB8661ABABA84515062 /* Math7App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92270210B55803E62C5FAC5F /* Math7App.swift */; };
+		88BCDE964A1CD4581237F6EF /* HandwritingRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688044F178A921A568077655 /* HandwritingRecognizer.swift */; };
+		89364A103B654F0E8984397F /* QuestionWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DEE97DFD2020A0DA59DDBF /* QuestionWebView.swift */; };
+		96E4C1B706CE7AD3AA9490CD /* ProgressData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BA824BBAC09F420DD46722 /* ProgressData.swift */; };
+		9DA2B07398AB23F097DBE406 /* HandwritingRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688044F178A921A568077655 /* HandwritingRecognizer.swift */; };
+		9EB375B686DBF4E8EAA3542A /* ActivityNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55123596B3CD138D65575BE /* ActivityNames.swift */; };
+		A525DBAD8BE0AC1E4AC55B23 /* ShieldConfigurationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68311918335EF70697488BF /* ShieldConfigurationExtension.swift */; };
+		A67E153D8315F0E0BA8112B5 /* ParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5458BC2D450BF48E5B71E0E2 /* ParentView.swift */; };
+		B3469536C6FC25D47573AA76 /* Math7App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92270210B55803E62C5FAC5F /* Math7App.swift */; };
+		B99FA8EDCA2B3E52F92EAE78 /* GateShared.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3071BCF0F031B324F71CD9 /* GateShared.swift */; };
+		BA45CAFA99EFCF3EF84CEAB3 /* CanvasViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BBB7321A97D44E4F8CA369 /* CanvasViews.swift */; };
+		BFF3A58FC2F40F44AA4BB884 /* problems.js in Resources */ = {isa = PBXBuildFile; fileRef = D44AE80691835A6FF26427F0 /* problems.js */; };
+		C56681F32BC9DB0C736B4144 /* GateSettingsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4A04907B1491E331B45835 /* GateSettingsSection.swift */; };
+		C5A310E3996FA52015F42810 /* question.html in Resources */ = {isa = PBXBuildFile; fileRef = D700E8A46C21541BF8024A54 /* question.html */; };
+		D705E2FA4FF3AE6854444A64 /* GateShared.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3071BCF0F031B324F71CD9 /* GateShared.swift */; };
+		E0246FE2422C0A4BE86BDEE6 /* Math7Shield.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = FB94434E8854247C2146A889 /* Math7Shield.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		ED3F856F11C94D20DF6A8A9E /* Math7Monitor.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4C02FAE59333E636487A9A42 /* Math7Monitor.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F0D9312111AA38EC6DC19844 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A9338805D1BFF1C3A21647 /* Store.swift */; };
+		F23EED7164E71D0C7F59ACE2 /* ProblemEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3FF9D6A6CCAD06A40B0822 /* ProblemEngine.swift */; };
+		F8305C4DDFEDC2BCC9976E71 /* GateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3547D374EA41DBD2AF7D7F2D /* GateManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C85D358C53A5AA01CFF74B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A685956D529BEC98830F95C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD60645AD91057C6B45AFB6B;
+			remoteInfo = Math7Monitor;
+		};
+		1C8EE4C7175B29457150A854 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A685956D529BEC98830F95C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B0BAAA041E851C92ADB887C;
+			remoteInfo = Math7Shield;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0BE12960BE48A3D1E17A77F9 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				ED3F856F11C94D20DF6A8A9E /* Math7Monitor.appex in Embed Foundation Extensions */,
+				E0246FE2422C0A4BE86BDEE6 /* Math7Shield.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0828CDEF5712E8DE3CE6DDD2 /* PracticeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
+		2B3EFD2CB425627684A6987A /* UnitAndSummaryViews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UnitAndSummaryViews.swift; sourceTree = "<group>"; };
+		316960BB80E6B25970A2FE45 /* Monitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Monitor.swift; sourceTree = "<group>"; };
+		316D60C6D8F1DA76437C3DE2 /* Math7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Math7.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3547D374EA41DBD2AF7D7F2D /* GateManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GateManager.swift; sourceTree = "<group>"; };
+		37BA824BBAC09F420DD46722 /* ProgressData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProgressData.swift; sourceTree = "<group>"; };
+		4C02FAE59333E636487A9A42 /* Math7Monitor.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Math7Monitor.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EA43601BC2AB33EA2E6A624 /* Math7Monitor.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = Math7Monitor.entitlements; sourceTree = "<group>"; };
+		51F2839C197209A0F45574D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		52A9338805D1BFF1C3A21647 /* Store.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		5458BC2D450BF48E5B71E0E2 /* ParentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ParentView.swift; sourceTree = "<group>"; };
+		56DEE97DFD2020A0DA59DDBF /* QuestionWebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QuestionWebView.swift; sourceTree = "<group>"; };
+		5F10AD872CBB727B6F0F6A0B /* HomeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		688044F178A921A568077655 /* HandwritingRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HandwritingRecognizer.swift; sourceTree = "<group>"; };
+		7F7C2F4E06799AB802CCA112 /* Math7Shield.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = Math7Shield.entitlements; sourceTree = "<group>"; };
+		8F4A04907B1491E331B45835 /* GateSettingsSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GateSettingsSection.swift; sourceTree = "<group>"; };
+		92270210B55803E62C5FAC5F /* Math7App.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Math7App.swift; sourceTree = "<group>"; };
+		B0F2B40189D0B9200FD2E60C /* Math7Lock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Math7Lock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67B1FD504E22A6695479A71 /* PracticeSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PracticeSession.swift; sourceTree = "<group>"; };
+		C7D5E8B94F35CF6E544BB67A /* Settings.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Settings.xcconfig; sourceTree = "<group>"; };
+		CB3071BCF0F031B324F71CD9 /* GateShared.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GateShared.swift; sourceTree = "<group>"; };
+		CD0E7F6668A33A6F97DA7198 /* Math7Lock.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = Math7Lock.entitlements; sourceTree = "<group>"; };
+		CF3FF9D6A6CCAD06A40B0822 /* ProblemEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProblemEngine.swift; sourceTree = "<group>"; };
+		D2BBB7321A97D44E4F8CA369 /* CanvasViews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CanvasViews.swift; sourceTree = "<group>"; };
+		D44AE80691835A6FF26427F0 /* problems.js */ = {isa = PBXFileReference; includeInIndex = 1; path = problems.js; sourceTree = "<group>"; };
+		D700E8A46C21541BF8024A54 /* question.html */ = {isa = PBXFileReference; includeInIndex = 1; path = question.html; sourceTree = "<group>"; };
+		E1C1C92531D15D867A40F375 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E57E5EB8323953362D3383F9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E68311918335EF70697488BF /* ShieldConfigurationExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ShieldConfigurationExtension.swift; sourceTree = "<group>"; };
+		ED25FC0B3D8B87A92A85B756 /* Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		EEC0DAC6B0668FD4E77F1557 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F55123596B3CD138D65575BE /* ActivityNames.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ActivityNames.swift; sourceTree = "<group>"; };
+		FB94434E8854247C2146A889 /* Math7Shield.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Math7Shield.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FA407C5843A62919ADAA31C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5284413DD8AA38BC5C3579EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB52FA4FB175787CECC222DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C51226079328D33B0B1BC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		032E0BBD036B1F8E60C116A5 /* Math7Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				E57E5EB8323953362D3383F9 /* Info.plist */,
+				4EA43601BC2AB33EA2E6A624 /* Math7Monitor.entitlements */,
+				316960BB80E6B25970A2FE45 /* Monitor.swift */,
+			);
+			name = Math7Monitor;
+			path = Math7Monitor;
+			sourceTree = "<group>";
+		};
+		0C75C381719AD894126659B8 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				CF3FF9D6A6CCAD06A40B0822 /* ProblemEngine.swift */,
+			);
+			name = Engine;
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		2424E9BBC27B030B6C691DA8 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				C7D5E8B94F35CF6E544BB67A /* Settings.xcconfig */,
+			);
+			name = Config;
+			path = Config;
+			sourceTree = "<group>";
+		};
+		27426FCF251EAE1767787CC3 = {
+			isa = PBXGroup;
+			children = (
+				2424E9BBC27B030B6C691DA8 /* Config */,
+				377C0588008847E8842651ED /* Frameworks */,
+				C961E4A5347A0BCCAA0F9FDD /* Math7 */,
+				032E0BBD036B1F8E60C116A5 /* Math7Monitor */,
+				7E806C5F76A36C2549C1E634 /* Math7Shield */,
+				BF5B53B7B1C420B2E2DAFE52 /* Products */,
+				77EA3823B1642B73352D5E4A /* Shared */,
+				AE352722933EEAF5D5943B89 /* Shared with web app */,
+			);
+			sourceTree = "<group>";
+		};
+		29A769B7E4D3C1AD65412A41 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C67B1FD504E22A6695479A71 /* PracticeSession.swift */,
+				37BA824BBAC09F420DD46722 /* ProgressData.swift */,
+				52A9338805D1BFF1C3A21647 /* Store.swift */,
+			);
+			name = Model;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		377C0588008847E8842651ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5EFE508330EEC83063EACB8 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77EA3823B1642B73352D5E4A /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F55123596B3CD138D65575BE /* ActivityNames.swift */,
+				CB3071BCF0F031B324F71CD9 /* GateShared.swift */,
+			);
+			name = Shared;
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		7E806C5F76A36C2549C1E634 /* Math7Shield */ = {
+			isa = PBXGroup;
+			children = (
+				EEC0DAC6B0668FD4E77F1557 /* Info.plist */,
+				7F7C2F4E06799AB802CCA112 /* Math7Shield.entitlements */,
+				E68311918335EF70697488BF /* ShieldConfigurationExtension.swift */,
+			);
+			name = Math7Shield;
+			path = Math7Shield;
+			sourceTree = "<group>";
+		};
+		8FF1B1DB589E5C8526A23E5A /* Handwriting */ = {
+			isa = PBXGroup;
+			children = (
+				D2BBB7321A97D44E4F8CA369 /* CanvasViews.swift */,
+				688044F178A921A568077655 /* HandwritingRecognizer.swift */,
+			);
+			name = Handwriting;
+			path = Handwriting;
+			sourceTree = "<group>";
+		};
+		AE352722933EEAF5D5943B89 /* Shared with web app */ = {
+			isa = PBXGroup;
+			children = (
+				D44AE80691835A6FF26427F0 /* problems.js */,
+			);
+			name = "Shared with web app";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		B47E1FF46652DF8D8FF0846E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5F10AD872CBB727B6F0F6A0B /* HomeView.swift */,
+				5458BC2D450BF48E5B71E0E2 /* ParentView.swift */,
+				0828CDEF5712E8DE3CE6DDD2 /* PracticeView.swift */,
+				56DEE97DFD2020A0DA59DDBF /* QuestionWebView.swift */,
+				ED25FC0B3D8B87A92A85B756 /* Theme.swift */,
+				2B3EFD2CB425627684A6987A /* UnitAndSummaryViews.swift */,
+			);
+			name = Views;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BBEBDB33C20FFAD570577C1B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E1C1C92531D15D867A40F375 /* Assets.xcassets */,
+				D700E8A46C21541BF8024A54 /* question.html */,
+			);
+			name = Resources;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BF5B53B7B1C420B2E2DAFE52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				316D60C6D8F1DA76437C3DE2 /* Math7.app */,
+				B0F2B40189D0B9200FD2E60C /* Math7Lock.app */,
+				4C02FAE59333E636487A9A42 /* Math7Monitor.appex */,
+				FB94434E8854247C2146A889 /* Math7Shield.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5EFE508330EEC83063EACB8 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				51F2839C197209A0F45574D3 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C961E4A5347A0BCCAA0F9FDD /* Math7 */ = {
+			isa = PBXGroup;
+			children = (
+				0C75C381719AD894126659B8 /* Engine */,
+				E134139D7DB8969431F47258 /* Gate */,
+				8FF1B1DB589E5C8526A23E5A /* Handwriting */,
+				92270210B55803E62C5FAC5F /* Math7App.swift */,
+				CD0E7F6668A33A6F97DA7198 /* Math7Lock.entitlements */,
+				29A769B7E4D3C1AD65412A41 /* Model */,
+				BBEBDB33C20FFAD570577C1B /* Resources */,
+				B47E1FF46652DF8D8FF0846E /* Views */,
+			);
+			name = Math7;
+			path = Math7;
+			sourceTree = "<group>";
+		};
+		E134139D7DB8969431F47258 /* Gate */ = {
+			isa = PBXGroup;
+			children = (
+				3547D374EA41DBD2AF7D7F2D /* GateManager.swift */,
+				8F4A04907B1491E331B45835 /* GateSettingsSection.swift */,
+			);
+			name = Gate;
+			path = Gate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2204C2ABE8D3219CEAC7560A /* Math7Lock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02A6D4537AE3BE310D9E4768 /* Build configuration list for PBXNativeTarget "Math7Lock" */;
+			buildPhases = (
+				23C0627334A1B913A71E255F /* Sources */,
+				F4C51226079328D33B0B1BC9 /* Frameworks */,
+				2910C964CE45A7B19CFFF26F /* Resources */,
+				0BE12960BE48A3D1E17A77F9 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08B47F93CD8705146241ED48 /* PBXTargetDependency */,
+				A9F9F111C0B51E884E021449 /* PBXTargetDependency */,
+			);
+			name = Math7Lock;
+			productName = Math7Lock;
+			productReference = B0F2B40189D0B9200FD2E60C /* Math7Lock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30571D7B84D7355E5F24E76C /* Math7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7F9F8CDF19A5538237B0F0E /* Build configuration list for PBXNativeTarget "Math7" */;
+			buildPhases = (
+				D2316A4814E054CEDCAE9D02 /* Sources */,
+				DB52FA4FB175787CECC222DA /* Frameworks */,
+				AAEAF04074EB9FD484EEE08F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Math7;
+			productName = Math7;
+			productReference = 316D60C6D8F1DA76437C3DE2 /* Math7.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B0BAAA041E851C92ADB887C /* Math7Shield */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9206739CB81F4358F72D7CE /* Build configuration list for PBXNativeTarget "Math7Shield" */;
+			buildPhases = (
+				D6BBF33535B051E41C03771F /* Sources */,
+				5284413DD8AA38BC5C3579EF /* Frameworks */,
+				E57BB57F8C93C12BFB56291F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Math7Shield;
+			productName = Math7Shield;
+			productReference = FB94434E8854247C2146A889 /* Math7Shield.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		FD60645AD91057C6B45AFB6B /* Math7Monitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B642C3CF1013B3049E0A776 /* Build configuration list for PBXNativeTarget "Math7Monitor" */;
+			buildPhases = (
+				FB8BEEEE88ECD2E47F1499F0 /* Sources */,
+				4FA407C5843A62919ADAA31C /* Frameworks */,
+				EB2533996AC20CBF611ACF06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Math7Monitor;
+			productName = Math7Monitor;
+			productReference = 4C02FAE59333E636487A9A42 /* Math7Monitor.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A685956D529BEC98830F95C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 28E2A5CFCFE9BBB797FCA89F /* Build configuration list for PBXProject "Math7" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27426FCF251EAE1767787CC3;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 100;
+			productRefGroup = BF5B53B7B1C420B2E2DAFE52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30571D7B84D7355E5F24E76C /* Math7 */,
+				2204C2ABE8D3219CEAC7560A /* Math7Lock */,
+				FD60645AD91057C6B45AFB6B /* Math7Monitor */,
+				3B0BAAA041E851C92ADB887C /* Math7Shield */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2910C964CE45A7B19CFFF26F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E5F1767E05641B4517CD143 /* Assets.xcassets in Resources */,
+				BFF3A58FC2F40F44AA4BB884 /* problems.js in Resources */,
+				C5A310E3996FA52015F42810 /* question.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAEAF04074EB9FD484EEE08F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C7676F49A0EFCDC185D5BD /* Assets.xcassets in Resources */,
+				29E2FBA7C8AC40C593154157 /* problems.js in Resources */,
+				6AEF56345C6DC49A59EE5D23 /* question.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E57BB57F8C93C12BFB56291F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB2533996AC20CBF611ACF06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23C0627334A1B913A71E255F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5508C6482D30D3B442392CAD /* ActivityNames.swift in Sources */,
+				4403C7D26AA4E2A218799804 /* CanvasViews.swift in Sources */,
+				F8305C4DDFEDC2BCC9976E71 /* GateManager.swift in Sources */,
+				6B22038E25375120AFB636D6 /* GateSettingsSection.swift in Sources */,
+				D705E2FA4FF3AE6854444A64 /* GateShared.swift in Sources */,
+				9DA2B07398AB23F097DBE406 /* HandwritingRecognizer.swift in Sources */,
+				273E89E37D36A4111AED30AF /* HomeView.swift in Sources */,
+				82032BB8661ABABA84515062 /* Math7App.swift in Sources */,
+				5B2624E1B0AC005DD5BED900 /* ParentView.swift in Sources */,
+				3678808635C760A713F1519A /* PracticeSession.swift in Sources */,
+				05A2B271242F64D6B364B606 /* PracticeView.swift in Sources */,
+				3DB74E9C7AEAE44596954E0A /* ProblemEngine.swift in Sources */,
+				96E4C1B706CE7AD3AA9490CD /* ProgressData.swift in Sources */,
+				89364A103B654F0E8984397F /* QuestionWebView.swift in Sources */,
+				F0D9312111AA38EC6DC19844 /* Store.swift in Sources */,
+				3B66DD636425A221F6C525BD /* Theme.swift in Sources */,
+				6017C28D20D099E7F284EE48 /* UnitAndSummaryViews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2316A4814E054CEDCAE9D02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EB375B686DBF4E8EAA3542A /* ActivityNames.swift in Sources */,
+				BA45CAFA99EFCF3EF84CEAB3 /* CanvasViews.swift in Sources */,
+				0DBA0F49CC5AC0DD795BB1C1 /* GateManager.swift in Sources */,
+				C56681F32BC9DB0C736B4144 /* GateSettingsSection.swift in Sources */,
+				1E8A178AA398FF1AAD8B8F37 /* GateShared.swift in Sources */,
+				88BCDE964A1CD4581237F6EF /* HandwritingRecognizer.swift in Sources */,
+				248F9EE46C3A1B17D6958AE4 /* HomeView.swift in Sources */,
+				B3469536C6FC25D47573AA76 /* Math7App.swift in Sources */,
+				A67E153D8315F0E0BA8112B5 /* ParentView.swift in Sources */,
+				7A624E09DC188DF62FD95BA4 /* PracticeSession.swift in Sources */,
+				52D98453222CEB3067A788A6 /* PracticeView.swift in Sources */,
+				F23EED7164E71D0C7F59ACE2 /* ProblemEngine.swift in Sources */,
+				3F4F3F4ED26EE7FD249D5D4F /* ProgressData.swift in Sources */,
+				34F689D9B69430315400B97C /* QuestionWebView.swift in Sources */,
+				1BFD6FE5742E3E1714A8A2F6 /* Store.swift in Sources */,
+				3931EFBA01FF4DE9EC52A18F /* Theme.swift in Sources */,
+				5C04119F05683D6F92A69220 /* UnitAndSummaryViews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6BBF33535B051E41C03771F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A525DBAD8BE0AC1E4AC55B23 /* ShieldConfigurationExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8BEEEE88ECD2E47F1499F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				225087CB9DDD2D80CC61A5EB /* ActivityNames.swift in Sources */,
+				B99FA8EDCA2B3E52F92EAE78 /* GateShared.swift in Sources */,
+				303D77025F92C6E7ADA637EE /* Monitor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08B47F93CD8705146241ED48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Math7Monitor;
+			target = FD60645AD91057C6B45AFB6B /* Math7Monitor */;
+			targetProxy = 0C85D358C53A5AA01CFF74B9 /* PBXContainerItemProxy */;
+		};
+		A9F9F111C0B51E884E021449 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Math7Shield;
+			target = 3B0BAAA041E851C92ADB887C /* Math7Shield */;
+			targetProxy = 1C8EE4C7175B29457150A854 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0959588E0D32D24AF1C64C9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = Math7/Math7Lock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Math 7";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX)";
+				PRODUCT_NAME = Math7Lock;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) GATE_On";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D2580408E541D2D19E2B31F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Math 7";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX)";
+				PRODUCT_NAME = Math7;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) GATE_Off";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EA074ED33C1B76850220C1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Math 7";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX)";
+				PRODUCT_NAME = Math7;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) GATE_Off DEBUG";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		97336186B6789D85AC83B3B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = Math7Shield/Math7Shield.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Math7Shield/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Math7Shield;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).shield";
+				PRODUCT_NAME = Math7Shield;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98805ED9887D1CC8A941F449 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7D5E8B94F35CF6E544BB67A /* Settings.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B473C7FF049F3DD5AB987E80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = Math7Monitor/Math7Monitor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Math7Monitor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Math7Monitor;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).monitor";
+				PRODUCT_NAME = Math7Monitor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC85C5A9D2FF49DB5AD1AD9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7D5E8B94F35CF6E544BB67A /* Settings.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E6236AEB6DBF6E1AF6F48DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = Math7Monitor/Math7Monitor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Math7Monitor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Math7Monitor;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).monitor";
+				PRODUCT_NAME = Math7Monitor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		F10FB54DD914E10126C5D7BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = Math7Shield/Math7Shield.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Math7Shield/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Math7Shield;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).shield";
+				PRODUCT_NAME = Math7Shield;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		FF9C9C19179F207F3F378641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = Math7/Math7Lock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Math 7";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX)";
+				PRODUCT_NAME = Math7Lock;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) GATE_On DEBUG";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02A6D4537AE3BE310D9E4768 /* Build configuration list for PBXNativeTarget "Math7Lock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9C9C19179F207F3F378641 /* Debug */,
+				0959588E0D32D24AF1C64C9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28E2A5CFCFE9BBB797FCA89F /* Build configuration list for PBXProject "Math7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC85C5A9D2FF49DB5AD1AD9D /* Debug */,
+				98805ED9887D1CC8A941F449 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B642C3CF1013B3049E0A776 /* Build configuration list for PBXNativeTarget "Math7Monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6236AEB6DBF6E1AF6F48DAA /* Debug */,
+				B473C7FF049F3DD5AB987E80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9206739CB81F4358F72D7CE /* Build configuration list for PBXNativeTarget "Math7Shield" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10FB54DD914E10126C5D7BF /* Debug */,
+				97336186B6789D85AC83B3B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7F9F8CDF19A5538237B0F0E /* Build configuration list for PBXNativeTarget "Math7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EA074ED33C1B76850220C1D /* Debug */,
+				6D2580408E541D2D19E2B31F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A685956D529BEC98830F95C3 /* Project object */;
+}

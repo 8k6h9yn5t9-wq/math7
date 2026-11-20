@@ -1,0 +1,8 @@
+// Math 7 build settings.
+
+// A unique ID for the app. Apple needs it to be different from every other app,
+// so leave the random part at the end as it is.
+BUNDLE_ID_PREFIX = com.math7practice.k7x2q9
+
+// ---- No need to change anything below ----
+MATH7_APP_GROUP = group.$(BUNDLE_ID_PREFIX)

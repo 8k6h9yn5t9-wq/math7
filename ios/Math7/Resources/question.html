@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<style>
+:root{
+  --ink:#1b2333; --muted:#5d6b82; --line:#dde3ee; --brand:#2f6fde; --brand-soft:#e6efff;
+  --good:#1f9d55; --good-soft:#e3f6ea; --bad:#d64545; --bad-soft:#fde8e8;
+  --warn:#c77700; --warn-soft:#fff3dc; --key:#eef2f8;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --ink:#e8edf6; --muted:#9aa7bd; --line:#2c3447; --brand:#5b8ff0; --brand-soft:#1f2c4a;
+    --good:#3ccf7d; --good-soft:#163525; --bad:#f07070; --bad-soft:#3a1d1f;
+    --warn:#f0b04a; --warn-soft:#3a2d14; --key:#252d40;
+  }
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;padding:0;background:transparent;color:var(--ink)}
+body{font:17px/1.45 -apple-system,"SF Pro Text",sans-serif;-webkit-user-select:none;user-select:none;-webkit-text-size-adjust:100%}
+#root{padding:2px 0 4px}
+.qtext{font-size:26px;line-height:1.45;font-weight:600}
+i{font-family:"Times New Roman",Georgia,serif;font-size:1.08em}
+.fr{display:inline-flex;flex-direction:column;vertical-align:middle;text-align:center;font-size:.82em;line-height:1.1;margin:0 .12em}
+.fr>span:first-child{border-bottom:2px solid currentColor;padding:0 .2em .05em}
+.fr>span:last-child{padding:.05em .2em 0}
+.fig{margin:12px 0 2px;color:var(--ink)}
+.tbl{border-collapse:collapse;font-size:22px;min-width:160px}
+.tbl th,.tbl td{border:2px solid var(--line);padding:4px 18px;text-align:center}
+.tbl th{background:var(--brand-soft)}
+.choices{display:grid;gap:10px;margin-top:16px}
+.choice{min-height:62px;border-radius:14px;background:var(--key);color:var(--ink);font:inherit;font-size:23px;font-weight:600;text-align:left;padding:10px 18px;border:3px solid transparent;width:100%}
+.choice.ok{border-color:var(--good);background:var(--good-soft)}
+.choice.no{border-color:var(--bad);background:var(--bad-soft);opacity:.85}
+.choice:active:not(:disabled){transform:scale(.98)}
+.feedback{margin-top:14px;border-radius:14px;padding:14px 16px;font-size:18px}
+.feedback.ok{background:var(--good-soft);color:var(--good);font-weight:700}
+.feedback.no{background:var(--bad-soft);color:var(--bad);font-weight:650}
+.feedback.hint{background:var(--warn-soft);color:var(--warn);font-weight:600}
+.feedback.answer{background:var(--key);color:var(--ink);font-size:22px;font-weight:700}
+.steps{margin-top:14px;background:var(--brand-soft);border-radius:14px;padding:14px 18px}
+.steps ol{margin:6px 0 0;padding-left:22px;font-size:19px}
+.steps li{margin:6px 0}
+@keyframes pop{0%{transform:scale(.9);opacity:0}100%{transform:scale(1);opacity:1}}
+.pop{animation:pop .25s ease-out}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+  var root = document.getElementById('root');
+  function post(name, value) {
+    try { window.webkit.messageHandlers[name].postMessage(value); } catch (e) {}
+  }
+  function reportHeight() { post('height', Math.ceil(root.getBoundingClientRect().height)); }
+
+  // Called from Swift with the whole state of the problem card.
+  function render(s) {
+    var h = '<div class="qtext">' + s.q + '</div>';
+    if (s.choices) {
+      h += '<div class="choices">';
+      s.choices.forEach(function (c, i) {
+        h += '<button class="choice ' + (s.choiceState[i] || '') + '" data-i="' + i + '"' +
+             (s.locked || s.choiceState[i] ? ' disabled' : '') + '>' + c + '</button>';
+      });
+      h += '</div>';
+    }
+    if (s.feedback) h += '<div class="feedback ' + s.feedback.kind + (s.feedback.pop ? ' pop' : '') + '">' + s.feedback.html + '</div>';
+    if (s.hint) h += '<div class="feedback hint">💡 ' + s.hint + '</div>';
+    if (s.answer) h += '<div class="feedback answer">Answer: ' + s.answer + '</div>';
+    if (s.steps) h += '<div class="steps"><b>Step by step</b><ol>' + s.steps.map(function (x) { return '<li>' + x + '</li>'; }).join('') + '</ol></div>';
+    root.innerHTML = h;
+    Array.prototype.forEach.call(root.querySelectorAll('.choice'), function (b) {
+      b.addEventListener('click', function () { post('choice', Number(b.getAttribute('data-i'))); });
+    });
+    reportHeight();
+    setTimeout(reportHeight, 50);
+  }
+  if (window.ResizeObserver) new ResizeObserver(reportHeight).observe(root);
+  window.addEventListener('load', function () { post('ready', 1); });
+</script>
+</body>
+</html>
