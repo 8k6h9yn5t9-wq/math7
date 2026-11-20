@@ -34,7 +34,7 @@ struct UnitView: View {
                                 }
                                 Image(systemName: "play.fill").foregroundStyle(.secondary)
                             }
-                            .padding(18).frame(maxWidth: .infinity, alignment: .leading).card()
+                            .padding(18).frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading).card()
                         }
                         .buttonStyle(.plain)
                     }

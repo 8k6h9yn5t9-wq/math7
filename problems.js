@@ -253,9 +253,15 @@
     return { q: `${who} ${ctx[0]}. What is the unit rate in ${ctx[1]}?`, a: fracAns(n1 * d2, d1 * n2), steps: [`Unit rate = ${frac(n1, d1)} ÷ ${frac(n2, d2)}`, `= ${frac(n1, d1)} × ${frac(d2, n2)} = <b>${frac(n1 * d2, d1 * n2)}</b>`, `(You can type a fraction like 8/3 or a decimal.)`], hint: `Divide the first quantity by the second. Dividing by a fraction means multiplying by its reciprocal.` };
   };
   const compareRates = (L) => {
+    // realistic price per item in cents for each product; the two stores differ by up to about 30%
+    const [item, lo, hi] = pick([['granola bars', 50, 125], ['juice boxes', 40, 100], ['pencils', 15, 60], ['cans of soup', 100, 250], ['bottles of water', 50, 150]]);
     let a, b, pa, pb;
-    do { a = R(3, 12); b = R(3, 12); pa = R(150, 900) / 100 * a; pb = R(150, 900) / 100 * b; pa = round(pa, 2); pb = round(pb, 2); } while (a === b || Math.abs(pa / a - pb / b) < 0.03);
-    const item = pick(['granola bars', 'juice boxes', 'pencils', 'cans of soup']);
+    do {
+      a = R(3, 12); b = R(3, 12);
+      const base = R(lo, hi);
+      pa = round(Math.round(base * (R(85, 115) / 100)) * a / 100, 2);
+      pb = round(Math.round(base * (R(85, 115) / 100)) * b / 100, 2);
+    } while (a === b || Math.abs(pa / a - pb / b) < 0.02);
     const ua = pa / a, ub = pb / b; const best = ua < ub ? 'A' : 'B';
     const ca = `Store A: ${a} ${item} for ${money(pa)}`, cb = `Store B: ${b} ${item} for ${money(pb)}`;
     return { q: `Which is the better buy?<br>${ca}<br>${cb}`, a: { type: 'mc', choices: ['Store A', 'Store B'], correct: best === 'A' ? 0 : 1 }, steps: [`Find each unit price. A: ${money(pa)} ÷ ${a} ≈ ${money(round(ua, 3))} each`, `B: ${money(pb)} ÷ ${b} ≈ ${money(round(ub, 3))} each`, `The lower unit price is the better buy: <b>Store ${best}</b>`] };

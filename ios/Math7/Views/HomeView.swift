@@ -141,7 +141,7 @@ struct ActionCard: View {
                 Spacer(minLength: 0)
             }
             .padding(18)
-            .frame(maxWidth: .infinity, alignment: .leading)
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
             .card()
         }
         .buttonStyle(.plain)
@@ -172,7 +172,7 @@ struct UnitCard: View {
                 }
             }
             .padding(18)
-            .frame(maxWidth: .infinity, alignment: .leading)
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
             .card()
         }
         .buttonStyle(.plain)
