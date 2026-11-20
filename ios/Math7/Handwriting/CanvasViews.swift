@@ -1,4 +1,6 @@
 import SwiftUI
+import UIKit
+import UIKit.UIGestureRecognizerSubclass
 import PencilKit
 
 /// The box he writes his answer in. Reads it ~0.7 s after he stops writing.
@@ -10,8 +12,7 @@ struct HandwritingPad: UIViewRepresentable {
     func makeCoordinator() -> Coordinator { Coordinator(self) }
 
     func makeUIView(context: Context) -> PKCanvasView {
-        let v = PKCanvasView()
-        v.drawingPolicy = .default // follows "Only Draw with Apple Pencil"; fingers work when no Pencil is paired
+        let v = InkCanvas()
         v.tool = PKInkingTool(.pen, color: .black, width: 7)
         v.backgroundColor = .clear
         v.isOpaque = false
@@ -52,6 +53,67 @@ struct HandwritingPad: UIViewRepresentable {
     }
 }
 
+/// A canvas that works inside a ScrollView and handles Pencil vs. finger.
+/// - Drags inside the canvas draw instead of scrolling the page around it.
+/// - Fingers (or the mouse in the Simulator) draw until an Apple Pencil touches any canvas;
+///   after that only the Pencil draws, so a resting palm doesn't leave marks.
+final class InkCanvas: PKCanvasView {
+    static var pencilSeen = false
+    private static let pencilNotice = Notification.Name("math7.pencilSeen")
+    private weak var linkedScroll: UIScrollView?
+
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        drawingPolicy = InkCanvas.pencilSeen ? .pencilOnly : .anyInput
+        let watcher = PencilWatcher { InkCanvas.notePencil() }
+        addGestureRecognizer(watcher)
+        NotificationCenter.default.addObserver(self, selector: #selector(pencilNotified), name: InkCanvas.pencilNotice, object: nil)
+    }
+
+    required init?(coder: NSCoder) { fatalError("not used") }
+
+    private static func notePencil() {
+        guard !pencilSeen else { return }
+        pencilSeen = true
+        NotificationCenter.default.post(name: pencilNotice, object: nil)
+    }
+
+    @objc private func pencilNotified() { drawingPolicy = .pencilOnly }
+
+    override func didMoveToWindow() {
+        super.didMoveToWindow()
+        guard window != nil else { return }
+        // Make any scroll view we sit in wait until our drawing gesture fails.
+        var v = superview
+        while let current = v {
+            if let scroll = current as? UIScrollView, scroll !== linkedScroll {
+                scroll.panGestureRecognizer.require(toFail: drawingGestureRecognizer)
+                linkedScroll = scroll
+                break
+            }
+            v = current.superview
+        }
+    }
+}
+
+/// Watches touches without interfering, to notice when an Apple Pencil is used.
+private final class PencilWatcher: UIGestureRecognizer, UIGestureRecognizerDelegate {
+    private let onPencil: () -> Void
+    init(onPencil: @escaping () -> Void) {
+        self.onPencil = onPencil
+        super.init(target: nil, action: nil)
+        cancelsTouchesInView = false
+        delaysTouchesBegan = false
+        delaysTouchesEnded = false
+        delegate = self
+    }
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent) {
+        if touches.contains(where: { $0.type == .pencil }) { onPencil() }
+        state = .failed
+    }
+    func gestureRecognizer(_ g: UIGestureRecognizer, shouldRecognizeSimultaneouslyWith other: UIGestureRecognizer) -> Bool { true }
+}
+
 /// Scratch paper next to the problem.
 struct ScratchPad: UIViewRepresentable {
     enum Tool { case pen, eraser }
@@ -62,8 +124,7 @@ struct ScratchPad: UIViewRepresentable {
     final class Box { var lastClear: Int; init(_ c: Int) { lastClear = c } }
 
     func makeUIView(context: Context) -> PKCanvasView {
-        let v = PKCanvasView()
-        v.drawingPolicy = .default
+        let v = InkCanvas()
         v.backgroundColor = .clear
         v.isOpaque = false
         v.alwaysBounceVertical = false
